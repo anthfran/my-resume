@@ -1,0 +1,43 @@
+[debug] [2017-11-01T10:24:55.767Z] ----------------------------------------------------------------------
+[debug] [2017-11-01T10:24:55.769Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-11-01T10:24:55.769Z] CLI Version:   3.13.1
+[debug] [2017-11-01T10:24:55.770Z] Platform:      darwin
+[debug] [2017-11-01T10:24:55.770Z] Node Version:  v7.4.0
+[debug] [2017-11-01T10:24:55.770Z] Time:          Wed Nov 01 2017 11:24:55 GMT+0100 (CET)
+[debug] [2017-11-01T10:24:55.770Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-01T10:24:55.788Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-01T10:24:55.789Z] > authorizing via signed-in user
+[debug] [2017-11-01T10:24:55.791Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-01T10:24:55.791Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/r1GFDRGcRu-xYGc44C077OkIcmTBSqbuHs3gBEtMtfM',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Nov 01 2017 11:24:55 GMT+0100 (CET)
+[debug] [2017-11-01T10:24:55.983Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T10:24:55.986Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/anthonyf-a880b  
+ Wed Nov 01 2017 11:24:55 GMT+0100 (CET)
+[debug] [2017-11-01T10:24:56.758Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-01T10:24:56.759Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/anthonyf-a880b/tokens  
+ Wed Nov 01 2017 11:24:56 GMT+0100 (CET)
+[debug] [2017-11-01T10:24:57.573Z] <<< HTTP RESPONSE 200
+[info] 2
+[info] 
+[info] === Deploying to 'anthonyf-a880b'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2017-11-01T10:24:58.908Z] >>> HTTP REQUEST PUT https://anthonyf-a880b.firebaseio.com/.settings/rules.json?dryRun=true {
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+ 
+ Wed Nov 01 2017 11:24:58 GMT+0100 (CET)
+[debug] [2017-11-01T10:24:59.544Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax is valid
+[info] i  hosting: preparing deploy directory for upload...
+[debug] [2017-11-01T10:29:31.399Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/anthonyf-a880b/uploads/-Kxr6CODcVseCPp88WTj?fileCount=184&message=  
+ Wed Nov 01 2017 11:29:31 GMT+0100 (CET)

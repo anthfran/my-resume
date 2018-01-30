@@ -1,0 +1,194 @@
+{
+  "basics": {
+    "name": "Anthony Francella",
+    "label": "Computer Engineer",
+    "picture": "",
+    "email": "anthonyf@gmail.com",
+    "phone": "647-501-6942",
+    "website": "https://anthonyf.com",
+    "summary": "",
+    "location": {
+      "address": "72A Hart Ave",
+      "postalCode": "M1K 3H4",
+      "city": "Toronto",
+      "countryCode": "CA",
+      "region": "ON"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "anthonyfrancella",
+        "url": "https://www.linkedin.com/in/anthonyfrancella"
+      },
+      {
+        "network": "Facebook",
+        "username": "anthony.francella",
+        "url": "https://www.facebook.com/anthony.francella"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "TELUS Communications",
+      "position": "Design Specialist",
+      "website": "https://telus.com",
+      "startDate": "2014-06-01",
+      "endDate": "2017-05-12",
+      "summary": "Emerging Mobile Solutions team. Built with and tested out innovative ideas using new technology. Stayed ahead of the mobile technology curve to lead and advise others in the organization to build better, faster, and cheaper",
+      "highlights": [
+        "Developed Node.js servers for mobile applications using Express.js and MongoDB, enabling apps to create, read, update and delete resources",
+        "Developed middleware server between a VoIP App and IMS enabling inbound voice calls even when asleep by holding SIP Invites and sending a push notification",
+        "Created Proof of Concept of a Facebook chatbot linked with TELUS Identity that would allow customers to get account details through chat",
+        "Leader of integrations with TELUS Identity and API's across our app portfolio, ensuring quick development times and code reuse",
+        "Leader of the IPv6 Compatibility program, ensuring all applications are ready for IPv6-only networks launching in 2017"
+      ]
+    },
+    {
+      "company": "TELUS Communications",
+      "position": "Engineer in Training",
+      "website": "https://telus.com",
+      "startDate": "2013-06-01",
+      "endDate": "2014-06-01",
+      "summary": "Graduate Engineering Program - 3rd Rotation - Identity and API",
+      "highlights": [
+        "Created Proof of Concept demonstrating a single app to handle all authentication across TELUS apps and services",
+        "Created Proof of Concept of an Eventing Platform which allow applications to subscribe to network events obtained through network probes"
+      ]
+    },
+    {
+      "company": "TELUS Communications",
+      "position": "Engineer in Training",
+      "website": "https://telus.com",
+      "startDate": "2012-06-01",
+      "endDate": "2013-06-01",
+      "summary": "Graduate Engineering Program - 2nd Rotation - Voice Services",
+      "highlights": [
+        "Lab testing of IMS before deployment, preparing to launch VoIP over LTE",
+        "Proof of Concept using WebRTC, showing that high quality video can easily be achieved through web pages without the drawbacks of SIP, demonstrating a threat to a core TELUS service"
+      ]
+    },
+    {
+      "company": "TELUS Communications",
+      "position": "Engineer in Training",
+      "website": "https://telus.com",
+      "startDate": "2011-05-18",
+      "endDate": "2012-06-01",
+      "summary": "Graduate Engineering Program - 1st Rotation - Project Management",
+      "highlights": [
+        "Managed and delivered $20M of capital projects.",
+        "Upgraded an existing Excel spreadsheet for the team with macros to automate tedious monthly and quarterly tasks."
+      ]
+    },
+    {
+      "company": "Designfusion",
+      "position": "IT Sysadmin",
+      "website": "https://designfusion.com",
+      "startDate": "2009-05-20",
+      "endDate": "2011-05-20",
+      "summary": "Co-administrator of the IT Systems for a small B2B sales business. Made considerable advances in automated processes reducing time for sales and accounting",
+      "highlights": [
+        "Salesforce management and process automation",
+        "Automated process to load sales quotes from Salesforce into accounting",
+        "Built a custom tool for a sales lead to convert files from their existing workflow to a SIEMENS Teamcenter file, resulting in a successful sale"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Toronto",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Applied Science and Engineering",
+      "startDate": "2004-09-01",
+      "endDate": "2009-05-15",
+      "gpa": "",
+      "courses": [
+        "Software Development",
+        "TCP/IP Networking",
+        "Wireless Communication"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front End Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Polymer"
+      ]
+    },
+    {
+      "name": "Back End Web Development",
+      "level": "Master",
+      "keywords": [
+        "NodeJS",
+        "Express",
+        "Facebook Chat Bots",
+        "MySQL and NoSQL databases",
+        "JWT, OAuth"
+      ]
+    },
+    {
+      "name": "Cloud Services",
+      "level": "Master",
+      "keywords": [
+        "Google Cloud",
+        "Amazon web services",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "Native Apps",
+      "level": "Intermediate",
+      "keywords": [
+        "React Native",
+        "XCode - Swift",
+        "Android - Java"
+      ]
+    },
+    {
+      "name": "Interpersonal Skills",
+      "level": "Intermediate",
+      "keywords": [
+        "Project Management",
+        "Training and mentoring",
+        "Public speaking",
+        "Proficient on solo-projects and within teams"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker and writer"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Beginner speaker and writer"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Auto Racing",
+      "keywords": []
+    },
+    {
+      "name": "Golf",
+      "keywords": []
+    },
+    {
+      "name": "Finance & Economics",
+      "keywords": []
+    },
+    {
+      "name": "Vegetable Gardening",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
